@@ -751,6 +751,7 @@
             this.listBoxEnCodecs.ItemHeight = 12;
             this.listBoxEnCodecs.Location = new System.Drawing.Point(169, 29);
             this.listBoxEnCodecs.Name = "listBoxEnCodecs";
+            this.listBoxEnCodecs.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.listBoxEnCodecs.Size = new System.Drawing.Size(120, 280);
             this.listBoxEnCodecs.TabIndex = 1;
             // 
@@ -760,6 +761,7 @@
             this.listBoxDisCodecs.ItemHeight = 12;
             this.listBoxDisCodecs.Location = new System.Drawing.Point(8, 29);
             this.listBoxDisCodecs.Name = "listBoxDisCodecs";
+            this.listBoxDisCodecs.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.listBoxDisCodecs.Size = new System.Drawing.Size(120, 280);
             this.listBoxDisCodecs.TabIndex = 0;
             // 

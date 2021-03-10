@@ -58,13 +58,15 @@ namespace Sipek
             config.Close();
             config.Dispose();
 
-
             //List<IAccount> acc = new List<IAccount>();
-            //acc.Add(new SipekAccount(0) { UserName = "1001", Enabled = true, AccountName = "1001", DisplayName = "1001", DomainName = "1001", HostName = "1001", Id = "1001", Password = "1001", ProxyAddress = "192.168.9.199", RegState = -1, TransportMode = Common.ETransportMode.TM_UDP });
-
+            //acc.Add(new SipekAccount(0) { UserName = "admin", Enabled = true, AccountName = "admin", DisplayName = "admin", DomainName = "newrocktech", HostName = "172.16.5.212", Id = "admin", Password = "123456", ProxyAddress = "172.16.5.212", RegState = 0, TransportMode = Common.ETransportMode.TM_UDP });
+            //if(_config== null)
+            //{
+            //    _config = new SipekConfigurator();
+            //}
             //_config.Accounts = acc;
-
             //string ss = _config.ToJson();
+
             // initialize sip struct at startup
             SipConfigStruct.Instance.stunServer = this.Configurator.StunServerAddress;
             SipConfigStruct.Instance.publishEnabled = this.Configurator.PublishEnabled;
